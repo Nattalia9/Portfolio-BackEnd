@@ -17,17 +17,19 @@ public class Proyecto {
     private Long id;
     private String titulo;
     private String descripcion;
-    private String img_url;
-    private String repo_url;
+    private String urlImagen;
+    private String urlRepositorio;
+    private String tecnologias;
 
     public Proyecto() {
     }
 
-    public Proyecto(String titulo, String descripcion, String img_url, String repo_url) {
+    public Proyecto(String titulo, String descripcion, String urlImagen, String urlRepositorio, String tecnologias) {
         this.titulo = titulo;
         this.descripcion = descripcion;
-        this.img_url = img_url;
-        this.repo_url = repo_url;
+        this.urlImagen = urlImagen;
+        this.urlRepositorio = urlRepositorio;
+        this.tecnologias = tecnologias;
     }
      
 }

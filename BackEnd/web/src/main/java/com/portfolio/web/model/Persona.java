@@ -17,32 +17,29 @@ public class Persona {
     private Long id;
     private String nombre;
     private String apellido;
-    private String titulo;
-    private String instagram;
-    private String linkedin;
-    private String github;
-    private String codepen;
-    private String imgUsuario;
-    private String banner;
-    private String portfolioPdf;
-    private String descripcion;  
+    private String profesion;
+    private String email;
+    private String provincia;
+    private String descripcion;
+    private String urlFotoPerfil;
+    private String urlBanner;
+    private String urlPortfolioPdf;
+    
 
     public Persona() {
     }
 
-    public Persona(Long id, String nombre, String apellido, String titulo, String instagram, String linkedin, String github, String codepen, String imgUsuario, String banner, String portfolioPdf, String descripcion) {
+    public Persona(Long id, String nombre, String apellido, String profesion, String email, String provincia, String descripcion, String urlFotoPerfil, String urlBanner, String urlPortfolioPdf) {
         this.id = id;
         this.nombre = nombre;
         this.apellido = apellido;
-        this.titulo = titulo;
-        this.instagram = instagram;
-        this.linkedin = linkedin;
-        this.github = github;
-        this.codepen = codepen;
-        this.imgUsuario = imgUsuario;
-        this.banner = banner;
-        this.portfolioPdf = portfolioPdf;
+        this.profesion = profesion;
+        this.email = email;
+        this.provincia = provincia;
         this.descripcion = descripcion;
+        this.urlFotoPerfil = urlFotoPerfil;
+        this.urlBanner = urlBanner;
+        this.urlPortfolioPdf = urlPortfolioPdf;
     }
       
 }

@@ -15,19 +15,19 @@ public class Habilidad {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private String habilidad;
-    private String progreso;
-    private String nivel;
-    private String icono;
+    private String habilidadTecnica;
+    private int nivelTecnico;
+    private String habilidadPersonal;
+    private int nivelHabPersonal;
 
     public Habilidad() {
     }
 
-    public Habilidad(String habilidad, String progreso, String nivel, String icono) {
-        this.habilidad = habilidad;
-        this.progreso = progreso;
-        this.nivel = nivel;
-        this.icono = icono;
+    public Habilidad(String habilidadTecnica, int nivelTecnico, String habilidadPersonal, int nivelHabPersonal) {
+        this.habilidadTecnica = habilidadTecnica;
+        this.nivelTecnico = nivelTecnico;
+        this.habilidadPersonal = habilidadPersonal;
+        this.nivelHabPersonal = nivelHabPersonal;
     }
        
 }
